@@ -1,4 +1,4 @@
-# Exemplo de uso da biblioteca de testes Pytest
+# Utilizando TDD com o auxílio da biblioteca de testes Pytest
 
 Nesse exemplo vou verificar a existência da função is_even no arquivo testes.py.
 
