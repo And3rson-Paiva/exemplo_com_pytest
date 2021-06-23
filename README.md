@@ -6,3 +6,5 @@ Após a aplicação do Pytest será possível verificar 3 erros, 1 NameError na 
 na test_in_even_except, pois a função is_even não existe.
 
 Obs: Um NameError é gerado quando uma variável ou função não é válida. Nesse Caso estou chamando uma função, is_even, que não foi declarada. 
+
+Com a inclusão do arquivo helper.py podemos solucionar os 3 NameError que apareciam no nosso teste anterior no arquivo testes.py pois a função is_even não tinha sido declarada.
