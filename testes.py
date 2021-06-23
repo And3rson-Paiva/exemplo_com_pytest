@@ -12,6 +12,8 @@ def test_in_even_false():
 
 
 def test_in_even_except():
-    is_even('a')
-    is_even(lambda z: z)
+    with raises(TypeError):
+        is_even('a')
+        is_even(lambda z: z)
+
 
